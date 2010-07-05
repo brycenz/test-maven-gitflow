@@ -6,7 +6,7 @@
     <groupId>brycenz</groupId>
     <artifactId>test.maven.gitflow</artifactId>
     <packaging>pom</packaging>
-    <version>0.2.0</version>
+    <version>0.2.1-SNAPSHOT</version>
 
     <name>Test Maven Git Flow..</name>
     <description>Test Maven Git Flow</description>
