@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <version>0.1.1-SNAPSHOT</version>
 
-    <name>Test Maven Git Flow</name>
+    <name>Test Maven Git Flow.</name>
     <description>Test Maven Git Flow</description>
 
     <prerequisites>
