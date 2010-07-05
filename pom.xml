@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>brycenz</groupId>
+    <artifactId>test.maven.gitflow</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>Test Maven Git Flow</name>
+    <description>Test Maven Git Flow</description>
+
+    <prerequisites>
+        <maven>2.0.7</maven>
+    </prerequisites>
+
+    <scm>
+        <developerConnection>scm:git:git@github.com:brycenz/test-maven-gitflow.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>local-releases</id>
+            <name>local-releases</name>
+            <url>file:///home/bryce/.m2/release</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugin>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>subone</module>
+        <module>subtwo</module>
+    </modules>
+
+</project>
