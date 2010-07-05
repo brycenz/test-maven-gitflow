@@ -6,12 +6,12 @@
     <parent>
         <groupId>brycenz</groupId>
         <artifactId>test.maven.gitflow</artifactId>
-        <version>0.2.0</version>
+        <version>0.3.0</version>
     </parent>
 
     <artifactId>test.maven.gitflow.subone</artifactId>
     <packaging>pom</packaging>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
 
     <name>Test Maven Git Flow Sub One</name>
     <description>Test Maven Git Flow Sub One</description>
